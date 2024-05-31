@@ -1,0 +1,727 @@
+body{
+    /* background-image: url("bg.jpg"); */
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+section{
+    padding: 2rem 0 1.5rem ;
+}
+nav {
+    display: flex;
+    justify-content: center; 
+    background-color: #2f2f2f;
+    color: white;
+    height: 60px;
+    /* position: fixed; 
+    top: 0; 
+    width: 100%; */
+}
+.nav1 ul{
+    list-style-type: none;
+    background-color: #2f2f2f;
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+    font-family: sans-serif;
+
+}
+.nav1 a{
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    display: block;
+    text-align: center;
+    font-size: 20px;
+}
+.nav1 a:hover{
+    background-color: black;
+    color: white;
+}
+.nav1 li{
+    float: left;
+}
+
+
+
+.f-slide{
+    background-image: url(img/bggg.jpg);
+    padding: 300px 0 80px;
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    /* filter: blur(1.5px); */
+    /* -webkit-filter: blur(5px); */
+    padding-top: 100px;
+   
+
+
+}
+.f-slide>img{
+    display: flex;
+    width: 500px;
+    height: auto;
+    position: relative;
+    left: 900px;
+    top: 140px;
+}
+
+
+.s-wel{
+    color: white;
+    text-align: left;
+    background-color:rgb(178, 0, 0) ;
+    padding: 5px;
+    position: relative;
+    bottom: 250px;
+    left: 250px;
+    font-size: 20px;
+    border-radius: 5px;
+    font-style: italic ;
+}
+.wel1{
+    color :white; 
+    text-align: left;
+    position: relative;
+    font-size: 20px;
+    font-family: sans-serif;
+    bottom: 250px;
+    left: 250px;
+    margin-right : 300px;
+    -webkit-text-stroke: 1px black
+ 
+}
+/* this code for descriptoin */
+.space{
+    color: transparent;
+    margin-bottom: 600px;
+    /* make the div transparent and give here a height */
+}
+.visible {
+    opacity: 1;
+}
+
+.desc-title{
+    color :black;
+    font-size: 40px;
+    /* background-color: ; */
+    background-size:50px;
+    margin-right: 780px;
+    border-radius: 5px;
+    padding: 3px;
+}
+.desc-info{
+    color:   black;
+    font-size: 20px;
+    /* background-color: ; */
+    padding: 5px;
+    border-radius: 5px;
+}
+
+
+
+
+
+/* here the product code start */
+
+
+.desc{
+    background-image: url(img/full-width-img-01.png);
+    padding: 300px;
+    background-repeat: no-repeat;
+    background-color: #edf0f5;
+}
+.in-desc{
+    max-width: 500px;
+    max-height: 500px;
+    position:absolute;
+    right: 200px;
+    top: 790px;
+    font-size: 20px;
+    font-family: sans-serif;
+
+
+}
+.in-desc>h2{
+    color: #e29b03;
+    -webkit-text-stroke: 0.7px black
+
+}
+.shop-container{
+    background-color: white;
+    margin-bottom: 150px;
+}
+
+.section-title{
+    color: black;
+    align-items: center;
+    text-align: center;
+    /* margin-right: 650px;
+    margin-left: 650px; */
+    font-size: 35px;
+    font-family:'Raleway', sans-serif !important;
+
+}
+.shop{
+    margin-top: 2rem;
+    margin: 25px;
+    
+}
+.shop-content{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap : 7em;
+    padding: 10px;
+}
+.product-box{
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.product-img{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-title{
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.price{
+    font-weight: 500;
+    font-size: 20px;
+
+}
+.product-box:hover{
+    background: black;
+    color: white;  
+
+}
+.other-car{
+    border: 2px solid black;
+    position: relative;
+    left: 1208px;
+    text-align: center;
+    align-items: center;
+    font-family: sans-serif;
+    padding: 20px;
+    font-weight: 600;
+    bottom: 20px;
+}
+.other-car>a{
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.other-car span{
+    width: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    margin-left: 10px;
+    font-size: 25px;
+    color: white;
+}
+.other-car:hover span{
+    color: black;
+    width: 0;
+}
+
+
+
+footer{
+    background-color: #2f2f2f;
+    clear: both;
+    position: relative;
+    height: 200px;
+    margin-top: -200px;
+
+}
+.footerContainer{
+    width: 100%;
+    padding:70px 30px 20px;
+    max-width: 500px;
+    max-height: 500px;
+    position: relative;
+    left: 500px;
+    bottom: 30px;
+}
+.footerbotom{
+    width: 100%;
+    /* height: ; */
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    background-color: white;
+    margin: 10px;
+    border-radius: 50%;
+}
+.socialIcons a i{
+    font-size: 2em;
+    color: black;
+    opacity:0.9;
+}
+.socialIcons a:hover{
+    background-color: black;
+
+}
+.socialIcons a:hover i{
+    color: white;    
+}
+.footerNav{
+    margin: 30px 0;
+    position: relative;
+    bottom:  35px;
+}
+.footerNav ul{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    list-style: none;
+}
+.footerNav ul li a{
+    color: white;    
+    margin: 20px;
+    text-decoration: none;
+    font-size: 1.3em;
+    opacity: 0.7;
+    transition: 0.5s;
+
+}
+.footerNav ul li a:hover{
+    width: 5px;
+    color: black;
+}
+
+
+
+/* this is the css of the cars page */
+
+
+.shop-container2{
+    background-color: white;
+    margin-bottom: 150px;
+    margin-right: 400px;
+    margin-left: 50px;
+}
+
+.section-title2{
+    color: black;
+    align-items: center;
+    text-align: center;
+    /* margin-right: 650px;
+    margin-left: 650px; */
+    font-size: 35px;
+    font-family:'Raleway', sans-serif !important;
+
+}
+.shop{
+    margin-top: 2rem;
+    margin: 25px;
+    
+}
+.shop-content2{
+    display:grid;
+    grid-template-columns: repeat(auto-fit,minmax(220px, auto));
+    gap : 7em;
+    padding: 10px;
+}
+.product-box2{
+    position: relative;
+    box-sizing: border-box;
+    border: 2px solid black;
+    transition: 0.4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    padding-bottom:20px ;
+}
+.product-img2{
+    max-width: 100%;
+    max-height: 100%;
+}
+.product-title2{
+    font-size: 1.9rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 0.8rem;
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.price2{
+    font-weight: 500;
+    font-size: 20px;
+    position: relative;
+    left: 92px;
+    font-style: oblique;
+
+}
+.product-box2:hover{
+    background: black;
+    color: white;  
+
+}
+.product-box2 a{
+    text-decoration: none;
+    color: black;
+   
+}
+.product-box2 a:hover {
+    color: white;
+}
+.product-box2 h2{
+    margin: 0;
+    padding: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+.menu{
+    position: relative;
+    float: right;
+
+}
+.hot{
+    border: 2px solid rgb(175, 0, 0);
+    box-sizing: border-box;
+    margin-top: 27px;
+    margin-bottom: 30px;
+    margin-right: 20px;
+    border-radius: 3px;
+    right: 8px;
+    position: relative;
+}
+.hot:hover{
+    transform: scale(1.04);
+}
+.hot>a{
+    text-decoration: none;
+    color: black;
+}
+
+.hot-image{
+    max-width: 230px;
+    max-height: 100%;
+    border-bottom: 2px solid rgb(175, 0, 0);
+    
+}   
+.hot-name{
+    align-items: center;
+    text-align: center;
+    font-family: sans-serif;
+
+}
+.menu>.title{
+    color: rgb(175, 0, 0);
+    text-align: center;
+    align-items: center;
+    position: relative;
+    bottom: 15px;
+    font-size: 35px;
+    font-family: sans-serif;
+    right: 20px;
+}
+.hot-price{
+    text-align: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+}
+.hot-price .old-price{
+    color: rgb(175, 0, 0);
+    font-style: oblique;
+    position: relative;
+    bottom: 5px;
+    right: 8px;
+
+}
+.hot-price .new-price{
+    position: relative;
+    font-weight: 400;
+    font-size: 30px;
+    right: 10px;
+}
+.vl {
+    border-left: 1px solid black;
+    height: 2000px;
+    float: right;
+    position: relative;
+    right: 320px;
+}
+
+
+
+/* star cars desc */
+.vl2 {
+    border-left: 1px solid black;
+    height: 1500px;
+    float: right;
+    position: relative;
+    right: 320px;
+}
+.car{
+    width: fit-content;
+    position: relative;
+    left: 224px;
+    top: 25px;
+    border: 4px solid black;
+    padding: 50px;
+}
+.car-img{
+    height: 500px;
+    width: auto;
+    align-items: center;
+    border: 4px solid black;
+
+}
+.car-price{
+    float: right;
+    position: relative;
+    bottom: 100px;
+    font-family: sans-serif;
+    font-size: 28px;
+}
+.car-price .prix{
+    color: green;
+    font-style: oblique;
+}
+.car-name{
+    
+    font-weight: 700;
+    font-family: sans-serif;
+    font-size: 35px;
+}
+.car-desc{
+    font-size: 25px;
+    font-weight: 500;
+    font-family: sans-serif;
+    color: rgb(175, 0, 0);
+}
+.car-sub-desc{
+    color: black;
+}
+/* her the form css */
+.data-form{
+    max-width: 500px;
+    display: list-item;
+    position: relative;
+    left: 95px;
+
+}
+fieldset{
+    border: 4px solid black;
+    margin-top: 50px;
+}
+.data-style{
+    font-size: 25px;
+    padding: 20px;
+
+}
+.data-style input{
+    border: 2px solid black;
+
+}
+.qq{
+    margin: 10px;
+
+}
+.data-form button{
+    background: white;
+    position: relative;
+    width: 100px;
+    height: 34px;
+    left: 290px;
+    border: 1px solid b;
+}
+.data-form button:hover{
+    background: black;
+    color: white;
+}
+
+/* termes */
+
+.term{
+    width: 720px;
+    height: 720px;
+    float: right;
+    background: #edf0f5;
+
+}
+.term-text{
+    font-family: sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    width: 550px;
+    padding: 40px;
+    padding-left:115px ;
+}
+#hot-car{
+    border: 4px solid rgb(175, 0, 0);
+}
+
+
+
+
+
+
+
+
+
+
+.contact-us{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+	box-shadow: -2px -2px 10px rgb(89, 97, 102);
+	box-shadow: 2px 2px 10px rgb(89, 97, 102);
+    margin: 0;
+    padding: 0;
+
+}
+.contact-us h1{margin-bottom: 70px; color: #2f2f2f; font-size: 40px;}
+
+.contact-us-container{
+    display: flex;
+    width: 80%;
+    height: 75%;
+    justify-content: center;
+    align-items: center;
+}
+.contact-details {
+	background-color: #2f2f2f;
+    color: white;
+    height: auto;
+	width: 300px;
+	position: relative;
+	right: -100px;
+	box-shadow: 2px 2px 10px rgb(157, 164, 167);
+	box-shadow: -2px -2px 5px rgb(89, 97, 102);;
+    cursor: pointer;
+	border-radius: 10px;
+}
+.contact-details h4{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 0;
+    padding: 20px;
+    margin-bottom: 10px;
+    border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+
+}
+
+.contact-details i{display: inline-block; margin-left: 15px;}
+
+.contact-details > div h6{
+    padding-left: 15px;
+    font-size: 15px;
+    font-weight: 400;
+    margin: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.contact-details > div p{
+    padding-left: 45px;
+    padding-bottom: 5px;
+    font-weight: 300;
+    font-size: 12px;
+    color: white;
+
+}
+.contact-details .mb-2{
+    margin-bottom: 20px!important;
+}
+
+/* * start contact from */
+
+.cotact-form{
+    background-color:  #2f2f2f;
+    width: 50%;
+    height: auto;
+    padding-bottom: 40px;
+    border-radius: 10px;
+    margin-right: 20%;
+    text-align: center;
+    color: white;
+}
+.cotact-form h2{
+    font-size: 30px;
+    padding-top: 40px; 
+    margin-bottom: 10px;
+}
+
+.cotact-form .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+    margin-top: 25px;
+
+}
+
+.cotact-form .container .form-group{
+    width: 50%;
+    position: relative;
+
+}
+
+.cotact-form .container .form-group input ,
+.cotact-form .container .form-group textarea{
+    width: 100%;
+    background: none;
+    margin-bottom: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+
+.cotact-form .container .form-group input::placeholder,
+.cotact-form .container .form-group textarea::placeholder{
+    color: white;
+    
+}
+.cotact-form .container .form-group input:focus,
+.cotact-form .container .form-group textarea:focus{
+    outline: none;
+    box-shadow: none;
+}
+
+.btnSendMsg{
+    background-color: var(--dark-Gray);
+    color: white;
+    width: 30%;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-top: 10px;
+    border-color: var(--dark-Gray);
+}
